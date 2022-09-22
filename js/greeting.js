@@ -1,3 +1,9 @@
 export function greet(name) {
-  return `Howdy ${name}`;
+  if(name === "Martin" || name === "Ernst" || name === "Marc"){
+    return "Howdy Coach!"
+  }
+  if(name === "Dalia"){
+    return "Howdy Boss!"
+  }
+  return `Howdy ${name}!`;
 }
