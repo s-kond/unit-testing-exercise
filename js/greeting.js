@@ -1,5 +1,5 @@
 export function greet(name) {
-  if(name === "Martin" || name === "Ernst" || name === "Marc"){
+  if(["Marc", "Martin", "Ernst"].includes(name)){
     return "Howdy Coach!"
   }
   if(name === "Dalia"){
